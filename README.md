@@ -4,7 +4,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Fadi%20Saif-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fadisaif)
 [![Email](https://img.shields.io/badge/Email-fadi.saif%40outlook.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:fadi.saif@outlook.com)
-[![GitHub](https://img.shields.io/badge/GitHub-FadiSaif--BA-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/FadiSaif-BA)
+[![GitHub](https://img.shields.io/badge/GitHub-FadiSaif-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/FadiSaif)
 
 ---
 
