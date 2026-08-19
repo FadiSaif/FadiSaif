@@ -6,7 +6,7 @@ I am an analytics-focused professional with **10+ years of experience across hum
 
 I use **engineering as a means to an end**. SQL, Python, data modeling, workflow automation, and modern data-stack practices help me make analytical work more reliable, repeatable, and easier to use—not replace the analytical purpose.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Fadi%20Saif-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fadisaif) [![Email](https://img.shields.io/badge/Email-fadi.saif%40outlook.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fadi.saif@outlook.com) [![GitHub](https://img.shields.io/badge/GitHub-FadiSaif--BA-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FadiSaif-BA)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Fadi%20Saif-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fadisaif) [![Email](https://img.shields.io/badge/Email-fadi.saif%40outlook.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fadi.saif@outlook.com) [![GitHub](https://img.shields.io/badge/GitHub-FadiSaif-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FadiSaif)
 
 ---
 
