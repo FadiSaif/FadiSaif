@@ -76,29 +76,29 @@ I work on analytical problems where data is fragmented, inconsistent, difficult 
 
 | Project | Problem Addressed | Analytical / Business Value | Link |
 | :--- | :--- | :--- | :--- |
-| **SEAL Data Lakehouse** | Assessment and reference data came from different systems and spreadsheet workflows, causing repeated cleaning and reproducibility challenges. | Provides a structured analytical foundation with clearer lineage, quality controls, and reporting-ready models without enterprise database overhead. | [View Repo →](https://github.com/FadiSaif-BA/SEAL-DataLakehouse) |
+| **Data Lakehouse** | Assessment and reference data came from different systems and spreadsheet workflows, causing repeated cleaning and reproducibility challenges. | Provides a structured analytical foundation with clearer lineage, quality controls, and reporting-ready models without enterprise database overhead. | [View Repo →](https://github.com/FadiSaif-BA/SEAL-DataLakehouse) |
 | **ERP Sales Data Warehouse** | Multi-year sales data was distributed across legacy SQL Server ERP databases, limiting historical analysis and risking production contention. | Supports revenue, profitability, product, Pareto, customer, and market-basket analysis in an isolated analytical environment. | [View Repo →](https://github.com/FadiSaif-BA/DataPipeline_DataWarehouse) |
 | **Geospatial GPS Imputation** | Missing, imprecise, or invalid coordinates reduced the reliability of mapping, spatial monitoring, and GIS reporting. | Corrected/imputed ~1,600 records with a 20.6% error reduction over baseline, cutting manual validation by >70% while scaling to 100k+ records. | [View Repo →](https://github.com/FadiSaif-BA/Geospatial-GPS-Imputation) |
 | **Arabic-to-English Transliteration** | Inconsistent Arabic-to-English place-name spelling affected GIS matching, downstream relational joins, and reporting. | Supports consistent multilingual data preparation through deterministic rules, applied Seq2Seq attention modeling, and human-in-the-loop validation. | [View Repo →](https://github.com/FadiSaif-BA/Transliteration-Model) |
 
 ---
 
-### 1. [SEAL Data Lakehouse](https://github.com/FadiSaif-BA/SEAL-DataLakehouse)
+### 1. [Lightweight, on-prem Data Lakehouse](https://github.com/FadiSaif-BA/SEAL-DataLakehouse)
 
 * **Problem:** Assessment submissions and institutional reference data came from disparate systems and spreadsheet workflows. Repeated cleaning, inconsistent identifiers, duplicate records, unreliable GPS observations, and limited traceability made it difficult to reproduce analytical outputs consistently.
 * **Approach:** Designed a lightweight Medallion Architecture using Delta Lake, DuckDB, Python, and Prefect. The workflow separates raw ingestion, standardization, analytical modeling, warehouse serving, and operational extraction with persisted layer boundaries, schema controls, incremental API ingestion, surrogate keys, and referential-integrity quarantine.
 * **Business Value & Evidence:** Established a structured, auditable analytical foundation across **981 schools, 27 districts, 193 supervisors, and 200,000+ students** using Star Schema dimensional models and DuckDB analytical serving without requiring heavyweight database server infrastructure.
 * **Stack:** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Delta Lake](https://img.shields.io/badge/Delta_Lake-003366?style=flat-square) ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black) ![Prefect](https://img.shields.io/badge/Prefect-024DFD?style=flat-square&logo=prefect&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![PyArrow](https://img.shields.io/badge/PyArrow-E47911?style=flat-square&logo=apachearrow&logoColor=white) ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 
-👉 **[Explore the SEAL Data Lakehouse Repository](https://github.com/FadiSaif-BA/SEAL-DataLakehouse)**
+👉 **[Explore the Data Lakehouse Repository](https://github.com/FadiSaif-BA/SEAL-DataLakehouse)**
 
 ---
 
 ### 2. [ERP Sales Data Warehouse](https://github.com/FadiSaif-BA/DataPipeline_DataWarehouse)
 
 * **Problem:** Multi-year transaction records were siloed across legacy SQL Server instances, hindering historical performance analysis and risking production database contention.
-* **Approach:** Architected a modular PostgreSQL ELT data warehouse with Bronze, Silver, and Gold schemas. Automated multi-batch extraction, semantic field mapping, product catalogue enrichment, SAR financial metric normalization, and Kimball-style Star Schema modeling.
-* **Business Value & Evidence:** Unified **18,028 sales line-item facts** and enriched **22,000+ spare parts** across **54+ mapped entities**, validated by 14 automated data-integrity test suites to support Pareto, profitability, and customer segmentation analysis.
+* **Approach:** Built a modular PostgreSQL ELT data warehouse with Bronze, Silver, and Gold schemas. Semi-automated multi-batch extraction, semantic field mapping, product catalogue enrichment, SAR financial metric normalization, and Kimball-style Star Schema modeling.
+* **Business Value & Evidence:** Unified **18,028 sales line-item facts** and enriched **22,000+ spare parts** across **54+ mapped entities**, validated by 14 automated data-integrity test suites to support Pareto, profitability, and customer segmentation analysis. This project builds the foundation for data analytics that will continue to take place on the ERP data to generate meaningful, trusted, unified and scalable insights.
 * **Stack:** ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![SQL Server](https://img.shields.io/badge/SQL_Server-CC292B?style=flat-square&logo=microsoftsqlserver&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square) ![pgloader](https://img.shields.io/badge/pgloader-336791?style=flat-square)
 
 👉 **[Explore the ERP Sales Data Warehouse Repository](https://github.com/FadiSaif-BA/DataPipeline_DataWarehouse)**
@@ -133,7 +133,7 @@ I work on analytical problems where data is fragmented, inconsistent, difficult 
 * **Bachelor of Engineering in Information Technology** | University of Aden, Yemen
 * **Microsoft Data Architecture for Modern Data Stacks** | Coursera (2026)
 * **MEAL DPro Flex Certification** | Humentum (2020)
-* **Oracle Certified Associate / Professional (DBA & SQL)** (2014)
+* **Oracle Professional (DBA & Developer)** (2014)
 
 ---
 
