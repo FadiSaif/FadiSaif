@@ -142,5 +142,5 @@ I work on analytical problems where data is fragmented, inconsistent, difficult 
 I am interested in analytics, data analysis, business intelligence, monitoring and evaluation, data quality, and applied analytical work where technical methods are connected to real operational or business questions.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fadisaif)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/FadiSaif-BA)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/FadiSaif)
 [![Email](https://img.shields.io/badge/Email-Contact_Me-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:fadi.saif@outlook.com)
