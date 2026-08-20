@@ -83,7 +83,7 @@ I work on analytical problems where data is fragmented, inconsistent, difficult 
 
 ---
 
-### 1. [Lightweight, on-prem Data Lakehouse](https://github.com/FadiSaif-BA/SEAL-DataLakehouse)
+### [Lightweight, on-prem Data Lakehouse](https://github.com/FadiSaif-BA/SEAL-DataLakehouse)
 
 * **Problem:** Assessment submissions and institutional reference data came from disparate systems and spreadsheet workflows. Repeated cleaning, inconsistent identifiers, duplicate records, unreliable GPS observations, and limited traceability made it difficult to reproduce analytical outputs consistently.
 * **Approach:** Designed a lightweight Medallion Architecture using Delta Lake, DuckDB, Python, and Prefect. The workflow separates raw ingestion, standardization, analytical modeling, warehouse serving, and operational extraction with persisted layer boundaries, schema controls, incremental API ingestion, surrogate keys, and referential-integrity quarantine.
@@ -94,7 +94,7 @@ I work on analytical problems where data is fragmented, inconsistent, difficult 
 
 ---
 
-### 2. [ERP Sales Data Warehouse](https://github.com/FadiSaif-BA/DataPipeline_DataWarehouse)
+### [ERP Sales Data Warehouse](https://github.com/FadiSaif-BA/DataPipeline_DataWarehouse)
 
 * **Problem:** Multi-year transaction records were siloed across legacy SQL Server instances, hindering historical performance analysis and risking production database contention.
 * **Approach:** Built a modular PostgreSQL ELT data warehouse with Bronze, Silver, and Gold schemas. Semi-automated multi-batch extraction, semantic field mapping, product catalogue enrichment, SAR financial metric normalization, and Kimball-style Star Schema modeling.
@@ -105,7 +105,7 @@ I work on analytical problems where data is fragmented, inconsistent, difficult 
 
 ---
 
-### 3. [Geospatial GPS Imputation](https://github.com/FadiSaif-BA/Geospatial-GPS-Imputation)
+### [Geospatial GPS Imputation](https://github.com/FadiSaif-BA/Geospatial-GPS-Imputation)
 
 * **Problem:** Field survey systems produced missing, imprecise, default, or out-of-bounds coordinates, compromising the reliability of mapping, spatial dashboards, and distance calculations.
 * **Approach:** Implemented a three-tier cascade using trusted same-school historical observations first and distance-weighted K-Nearest Neighbors (KNN) via Haversine distance as a fallback. Preserves original observations and flags coordinate lineage for seamless Silver-layer Lakehouse integration.
@@ -116,7 +116,7 @@ I work on analytical problems where data is fragmented, inconsistent, difficult 
 
 ---
 
-### 4. [Arabic-to-English Transliteration](https://github.com/FadiSaif-BA/Transliteration-Model)
+### [Arabic-to-English Transliteration](https://github.com/FadiSaif-BA/Transliteration-Model)
 
 * **Problem:** Inconsistent spelling, orthography, and transliteration conventions in Arabic administrative place names caused systematic join and matching failures across GIS datasets and analytical reporting.
 * **Approach:** Developed a hybrid transliteration system combining deterministic normalization rules for predictable patterns with a Seq2Seq LSTM network (Bahdanau Attention) and beam-search decoding for ambiguous phonetic mappings, supported by human-in-the-loop review.
